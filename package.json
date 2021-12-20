@@ -1,14 +1,19 @@
 {
   "name": "@theobaidur/simple-encrypt-decrypt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theobaidur/simple-encrypt-decrypt"
+  },
   "source": "./src/index.ts",
   "main": "dist/main.js",
   "types": "dist/types.d.ts",
   "module": "dist/index.js",
   "scripts": {
     "watch": "parcel watch",
-    "build": "parcel build"
+    "build": "parcel build",
+    "publish": "npm run build && npm publish --access public"
   },
   "keywords": [],
   "author": "theobaidur@gmail.com",
